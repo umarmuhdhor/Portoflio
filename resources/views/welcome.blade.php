@@ -19,10 +19,13 @@
 
     <link rel="stylesheet" href="css/ionicons.min.css">
 
-    <link rel="stylesheet" href="css/flaticon.css">
-    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="{{asset('css/flaticon.css')}}">
+    <link rel="stylesheet" href="{{asset('css/icomoon.css')}}">
+    <link rel="stylesheet" href="{{asset('css/style.css')}}">
+    <link rel="stylesheet" href="{{asset('css/carousel.css')}}">
+    {{-- <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/carousel.css">
+    <link rel="stylesheet" href="css/carousel.css"> --}}
 
     <!-- Owl Carousel CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
@@ -122,7 +125,7 @@
                     <div class="img-about img d-flex align-items-stretch">
                         <div class="overlay"></div>
                         <div class="img d-flex align-self-stretch align-items-center"
-                            style="background-image:url(images/bg_11.png);">
+                            style="background-image:url({{asset('images/bg_11.png')}});">
                         </div>
                     </div>
                 </div>
